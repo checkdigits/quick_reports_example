@@ -56,6 +56,8 @@ type
     FDQuery1mem_address: TWideMemoField;
     FDQuery1mem_postcode: TWideMemoField;
     FDQuery1mem_email: TWideMemoField;
+    Panel1: TPanel;
+    QRLabel7: TQRLabel;
     procedure DetailBand1BeforePrint(Sender: TQRCustomBand; var PrintBand: Boolean);
     procedure QRSysData2Print(sender: TObject; var Value: string);
     procedure QRSysData1Print(sender: TObject; var Value: string);

@@ -3316,6 +3316,36 @@ object MyReport: TMyReport
         VerticalAlignment = tlTop
         FontSize = 28
       end
+      object QRLabel7: TQRLabel
+        Left = 288
+        Top = 168
+        Width = 222
+        Height = 20
+        Cursor = crHandPoint
+        Size.Values = (
+          52.916666666666660000
+          762.000000000000000000
+          444.500000000000000000
+          587.375000000000000000)
+        XLColumn = 0
+        XLNumFormat = nfGeneral
+        ActiveInPreview = False
+        Alignment = taLeftJustify
+        AlignToBand = False
+        Caption = 'https://www.embarcadero.com'
+        Color = clWhite
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -16
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        ExportAs = exptText
+        WrapStyle = BreakOnSpaces
+        VerticalAlignment = tlTop
+        FontSize = 12
+      end
     end
     object PageHeaderBand1: TQRBand
       Left = 48
@@ -3725,6 +3755,14 @@ object MyReport: TMyReport
         FontSize = 12
       end
     end
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 1
+    Width = 185
+    Height = 41
+    Caption = 'Panel1'
+    TabOrder = 1
   end
   object FDQuery1: TFDQuery
     Connection = FDConnection1
